@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Artefact</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login screen-->
+    <string name="login_to_continue"><u>LOGINTOCONTINUE</u></string>
+    <string name="email_id">E-Mail ID/Mobile Number</string>
+    <!--<string name="mobile_number">Mobile Number</string>-->
+    <string name="login">Login</string>
+    <string name="new_user">New user? Register here</string>
+    <string name="password">password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <!--<string name="register_here">Register here</string>-->
+
+    <!-- sign up screen-->
+    <string name="newuser"><u>NEW USER? REGISTER HERE</u></string>
+    <string name="registerDetails">Enter Below details to Register with us\n and stay updated</string>
+    <string name="profile_img_txt">Upload Your Profile Image</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail ID</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="signup">Sign Up</string>
+    <string name="or">OR</string>
+    <string name="sign_up_facebook">Sign up with Facebook</string>
+    <string name="sign_up_g_plus">Sign up with Google +</string>
+
+    <string name="terms_text">By using Artefacts,you agree to our\n terms and conditions</string>
+    <string name="please_select">Please Select</string>
+    <string-array name="pic_options">
+        <item>Take Photo</item>
+        <item>Choose from Library</item>
+        <!--<string name="take_photo">Take Photo</string>
+        <string name="choose_from_library">Choose from Library</string>-->
+    </string-array>
+
+
+    <!-- Menu screen-->
+    <string name="user_name">User Name</string>
+
+    <!-- Interest Screen-->
+    <string-array name="interest_data_arrays">
+        <item>Music</item>
+        <item>Dance</item>
+        <item>Theatre</item>
+        <item>Visual Arts</item>
+    </string-array>
+
+    <!-- Navigation Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Facebook</item>
+        <item >Google</item>
+        <item >Apple</item>
+        <item >Microsoft</item>
+        <item >Linkedin</item>
+    </string-array>
+
+    <!-- List Item Icons(Images) with strings(text of company name) -->
+    <!-- Keep them with titles array accordingly -->
+    <array name="nav_drawer_icons">
+        <item>@mipmap/icon_home</item>
+        <item>@mipmap/facebook</item>
+        <item>@mipmap/google</item>
+        <item>@mipmap/apple</item>
+        <item>@mipmap/windows</item>
+        <item>@mipmap/linkedin</item>
+    </array>
+
+    <string name="enterotp">Enter OTP Verfication code sent to your mobile</string>
+    <string name="otp">OTP</string>
+    <string name="resendotp"><u>Resend OTP</u></string>
+    <string name="verify">Verify</string>
+
+
+    <string name="editprofile">Edit profile</string>
+    <string name="updateintrest">Update Intrest</string>
+    <string name="eventhistory">Event History</string>
+    <string name="tellfriend">Tell a friend</string>
+    <string name="contactus">Contact us</string>
+    <string name="rateapp">Rate App</string>
+    <string name="events">EVENTS</string>
+    <!-- Navigation Drawer Menu Items -->
+    <string-array name="nav_drawer_items_artifacts">
+        <item >Events</item>
+        <item >Update Interest</item>
+        <item >Tell a friend</item>
+        <item >Contact us</item>
+        <item >Rate App</item>
+        <item >Event History</item>
+    </string-array>
+
+    <!-- List Item Icons(Images) with strings(text of company name) -->
+    <!-- Keep them with titles array accordingly -->
+    <array name="nav_drawer_icons_artifacts">
+        <item>@mipmap/events</item>
+        <item>@mipmap/rocket</item>
+        <item>@mipmap/people</item>
+        <item>@mipmap/mail</item>
+        <item>@mipmap/check</item>
+        <item>@mipmap/events</item>
+    </array>
+
+    <array name="nav_drawer_clicked_icons_artifacts">
+        <item>@mipmap/events_blue</item>
+        <item>@mipmap/rocket_blue</item>
+        <item>@mipmap/peoople_blue</item>
+        <item>@mipmap/mail_blue</item>
+        <item>@mipmap/check_blue</item>
+        <item>@mipmap/events_blue</item>
+    </array>
+    <string name="yourinterest">Tell us your interests</string>
+    <string name="submit">Submit</string>
+    <!-- drawer_list_item Imageview Description  -->
+    <string name="description_list_icon">Item Icon</string>
+
+    <!-- event sceeen-->
+    <string name="date">Date :</string>
+    <string name="time">Time :</string>
+    <string name="locaton">Location :</string>
+
+    <string name="alert">Alert</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="no">No</string>
+    <string name="error_login_phone">Please enter phone number</string>
+    <string name="error_login_passowrd">Please enter password</string>
+    <string name="error_otp">Please enter otp</string>
+    <string name="error_otp_invalid">Please enter correct otp</string>
+    <string-array name="event_filter_arrays">
+        <item>Group by Date</item>
+        <item>Group by Place</item>
+        <item>None</item>
+    </string-array>
+
+    <string name="tell_friend_subject_text">Try Artefact App for Android!</string>
+    <string name="tell_friend_body_text">I\'m using Artefact for Android and I recommend it. Click here: http://www.artefact.com</string>
+    <string name="share_text">Share with</string>
+    <string name="contact_us">Contact us</string>
+    <string name="contact_us_mail_id">contact us @ artefact@mail.in</string>
+
+    <string name="status">Status</string>
+</resources>

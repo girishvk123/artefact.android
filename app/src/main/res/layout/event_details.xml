@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/event_deatail_pic"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:src="@mipmap/adithi23" />
+
+        <TextView
+            android:id="@+id/event_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="New Text"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+        <!-- <RelativeLayout
+             android:id="@+id/r1"
+             android:layout_width="match_parent"
+             android:layout_height="110dp"
+             android:layout_below="@+id/event_deatail_pic"
+             android:layout_marginTop="20dp"
+             android:background="#ffffff"
+             android:visibility="gone">
+
+             <TextView
+                 android:id="@+id/event_date"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="5dp"
+                 android:text="Date : 15/05/2015"
+                 android:textColor="@color/background_material_dark"
+                 android:textSize="14sp" />
+
+             <TextView
+                 android:id="@+id/event_time"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:text="Time : 10:30pm"
+                 android:textColor="@color/background_material_dark"
+                 android:textSize="14sp" />
+
+
+             <TextView
+                 android:id="@+id/event_location"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/event_date"
+                 android:layout_marginLeft="5dp"
+                 android:layout_marginTop="10dp"
+                 android:text="Location : Gopalan Mall RR Nagar\nBangalore."
+                 android:textColor="@color/background_material_dark"
+                 android:textSize="14sp"></TextView>
+
+             <ImageView
+                 android:id="@+id/image_pic"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentRight="true"
+                 android:layout_below="@+id/event_time"
+                 android:layout_marginLeft="15dp"
+                 android:layout_marginRight="30dp"
+                 android:layout_marginTop="15dp"
+                 android:src="@drawable/icn_man" />
+
+             <TextView
+                 android:id="@+id/findmap"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentRight="true"
+                 android:layout_below="@+id/image_pic"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginTop="5dp"
+                 android:text="Find on map"
+                 android:textColor="@color/background_material_dark"
+                 android:textSize="14sp" />
+
+
+         </RelativeLayout>-->
+
+        <!--<RelativeLayout
+            android:id="@+id/desc_loyt"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/r1"
+            android:layout_marginTop="15dp"
+            android:background="#ffffff">-->
+
+
+        <TextView
+            android:id="@+id/event_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+
+            android:text="Swarathma has released two full-length studio albums, the self-titled Swarathmaand Topiwal as well as several singles and music videos."
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/event_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Date : 15/05/2015"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/event_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Time : 10:30pm"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/event_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Location : Gopalan Mall RR Nagar\nBangalore."
+            android:textColor="@android:color/white"
+            android:textSize="14sp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/find_map_layout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/image_pic"
+                android:layout_marginLeft="5dp"
+                android:text="Find on map"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/image_pic"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/event_time"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/location" />
+        </LinearLayout>
+        <!-- </RelativeLayout>-->
+
+        <Button
+            android:id="@+id/rsvp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/desc_loyt"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttons_border"
+            android:text="RSVP"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+
+        <Button
+            android:id="@+id/invite"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/rsvp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttons_border"
+            android:text="Invite Friends"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/invite">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_edit"
+                android:text="Close"
+                android:textColor="@color/background_material_dark"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
